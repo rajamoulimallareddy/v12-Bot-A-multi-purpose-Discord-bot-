@@ -10,7 +10,8 @@
 <li> <code> Basic commands </code> </li>
 
 <hr> 
-<h3> install dependencies </h3>
+<h3> install</h3>
+<li> install dependencies </li>
 <pre> npm install </pre> 
 
 <hr> 
@@ -27,4 +28,3 @@
  <h3> Start </h3>
  <li> run </li>
  <pre> node index.js </pre> 
- <li> run </li>
