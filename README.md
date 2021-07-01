@@ -23,6 +23,7 @@
 "Owner": ["580381333914648579"],
 "defaultPerms": ["SEND_MESSAGES"],
 "hostby": "true"
-</pre> 
 
 }
+</pre> 
+
