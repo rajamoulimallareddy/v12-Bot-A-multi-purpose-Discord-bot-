@@ -41,7 +41,7 @@ if(track.title > 63)t = `${track.title.slice(0, 63).replace("(Official Video)", 
   else t = track.title.replace("(Official Video)", "")
       const embed = new discord.MessageEmbed()
     .setAuthor('| Now playing', track.requester.displayAvatarURL({dynamic: true}))
-    .setDescription(`<a:music:786161722955399168> | [${t}](${track.uri}) ${ccc}`)
+    .setDescription(`[${t}](${track.uri}) ${ccc}`)
     .setColor("#000034")
   this.client.channels.cache.get(player.textChannel).send(embed);
     const cc = this.client.guilds.cache.get(player.guild).members.cache.get(client.user.id)
@@ -51,7 +51,7 @@ if(track.title > 63)t = `${track.title.slice(0, 63).replace("(Official Video)", 
   })
 .on("queueEnd", async player => {
 player.destroy()
-client.channels.cache.get(player.textChannel).send({embed: {color: "#000034", description: "<a:reddot:776065304602214421> **Queue has finished playing, stopping music and leaving voice channel!**"}})    
+client.channels.cache.get(player.textChannel).send({embed: {color: "#000034", description: "**Queue has finished playing, stopping music and leaving voice channel!**"}})    
   })
 
 client.music = client.manager;
