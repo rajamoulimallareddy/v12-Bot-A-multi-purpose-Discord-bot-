@@ -8,7 +8,6 @@ const { MessageEmbed } = require("discord.js");
 const fs = require('fs');
 const mongoose = require('mongoose');
 const discord = require('discord.js');
-const GiveawaySchema = require("./models/giveaway");
 const xd = new Map();
 
 this.client = client;
