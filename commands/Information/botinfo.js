@@ -32,7 +32,7 @@ module.exports = class extends Command {
 				`**:white_small_square: Servers:** ${this.client.guilds.cache.size.toLocaleString()} `,
 				`**:white_small_square: Users:** ${this.client.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}`,
 				`**:white_small_square: Channels:** ${this.client.channels.cache.size.toLocaleString()}`,
-				`**:white_small_square: Developer:** The bot is made with heart by **ᴵ ᵃᵐ туѕσи ᴷᶜ** `,
+				`**:white_small_square: Developer:** The bot is made with heart by **ᴵ ᵃᵐ туѕσи** `,
 				`**:white_small_square: Creation Date:** ${utc(this.client.user.createdTimestamp).format('Do MMMM YYYY HH:mm:ss')}`,
 			  `**:white_small_square: Node.js:** ${process.version}`,
 				`**:white_small_square: Version:** v${version}`,
