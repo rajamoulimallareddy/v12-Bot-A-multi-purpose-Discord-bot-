@@ -1,8 +1,6 @@
 const { Client, Collection, Permissions } = require("discord.js");
 const Util = require("./Util.js");
 const fs = require("fs");
-const { ErelaClient } = require("erela.js");
-const { Manager, Player } = require("erela.js");
 const config = require('../config.json');
 
 module.exports = class ThunderClient extends Client {
@@ -16,7 +14,7 @@ module.exports = class ThunderClient extends Client {
 
     this.aliases = new Collection();
 
-	this.config = config;
+    this.config = config;
 
     this.guildsData = require("./Guild"); // Guild mongoose model
 
