@@ -10,12 +10,12 @@
 <li> <code> Basic commands </code> </li>
 
 <hr> 
-<li><h3> install dependencies </h3> </li>
+<h3> install dependencies </h3>
 <pre> npm install </pre> 
 
 <hr> 
-<li> <h3> Config.json <h3> </li>
-
+<h3> Configration (config)  <h3>
+<li> config.json </li> 
 <pre>{ 
 "token" : "Your Token here",
 "prefix": ".",
@@ -24,5 +24,7 @@
 "hostby": "true"
 }</pre>
  <hr>
- <li> <h3> Start </h3> </li>
+ <h3> Start </h3>
+ <li> run </li>
  <pre> node index.js </pre> 
+ <li> run </li>
