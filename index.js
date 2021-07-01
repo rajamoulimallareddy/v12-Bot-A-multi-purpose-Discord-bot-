@@ -27,27 +27,4 @@ client.giveawaysManager = new GiveawaysManager(client, {
     }
 });
 
-const {utc} = require("moment")
-function shuffle(arr) {
-        for (let i = arr.length; i; i--) {
-            const j = Math.floor(Math.random() * i);
-            [arr[i - 1], arr[j]] = [arr[j], arr[i - 1]];
-        }
-        return arr;
-    };
-client.draw = function draw(list) {
-        const shuffled = shuffle(list);
-        return shuffled[Math.floor(Math.random() * shuffled.length)];
-    };
-
-    async function fetchReactedUsers(reaction, after) {
-      const opts = { limit: 100, after };
-      const reactions = await reaction.users.fetch(opts);
-      if (!reactions.size) return [];
-    
-      const last = reactions.last().id;
-      const next = await fetchReactedUsers(reaction, last);
-      return reactions.array().concat(next);
-    }
-
 client.start();
