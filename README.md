@@ -10,7 +10,7 @@
 <li> <code> Basic commands </code> </li>
 
 <hr> 
-<h3> install </h3> 
+<h3> install dependencies </h3> 
 <pre> npm install </pre> 
 
 <hr> 
@@ -24,4 +24,5 @@
 "hostby": "true"
 }</pre>
  
-
+<h3> Start </h3> 
+ <pre> node index.js </pre> 
