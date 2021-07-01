@@ -12,7 +12,7 @@
 <hr> 
 <h3> Clone </h3> 
 <li> clone repository </li>
-<pre> git clone https://github.com/ThunderTyson/T2.git </pre>
+<pre> git clone https://github.com/ThunderTyson/v12-Bot-A-multi-purpose-Discord-bot-.git </pre>
 <hr>
 <h3> install</h3>
 <li> install dependencies </li>
