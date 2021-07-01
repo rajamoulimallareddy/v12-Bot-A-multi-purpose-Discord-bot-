@@ -23,6 +23,6 @@
 "defaultPerms": ["SEND_MESSAGES"],
 "hostby": "true"
 }</pre>
- 
+ <hr>
 <h3> Start </h3> 
  <pre> node index.js </pre> 
