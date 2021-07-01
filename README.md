@@ -30,5 +30,5 @@
 }</pre>
  <hr>
  <h3> Start </h3>
- <li> run </li>
+ <li> Run </li>
  <pre> node index.js </pre> 
