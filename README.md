@@ -10,6 +10,10 @@
 <li> <code> Basic commands </code> </li>
 
 <hr> 
+<h3> Clone </h3> 
+<li> clone repository </li>
+<pre> git clone https://github.com/ThunderTyson/T2.git </pre>
+<hr>
 <h3> install</h3>
 <li> install dependencies </li>
 <pre> npm install </pre> 
