@@ -15,13 +15,13 @@
 
 <hr> 
 <h3> Config.json <h3> 
-<pre> 
-{ 
+
+<pre> { 
 "token" : "Your Token here",
 "prefix": ".",
 "Owner": ["580381333914648579"],
 "defaultPerms": ["SEND_MESSAGES"],
 "hostby": "true"
-}
-</pre> 
+}</pre>
+ 
 
