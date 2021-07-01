@@ -1,9 +1,9 @@
 {
-    "token": "Nzg5NzM2Nzk1NjA0Mzg1ODMy.X92ZtA.6wcNFNZ6Oz7UpBTGlqI0JlFqbUw",
-    "prefix": "m.",
-    "owners": ["580381333914648579", "663759563555733543"],
+    "token": "",
+    "prefix": ".",
+    "owners": ["580381333914648579"],
     "defaultPerms": ["SEND_MESSAGES"],
-    "nodes": [ { "host": "lava2.danbot.host", "port": 2333, "password": "DBH"}],
+    "nodes": [ { "host": "localhost", "port": 2333, "password": "youshallnotpass"}],
     "hostby": "true;",
     "spotifyURL": "https://open.spotify.com"
   }
