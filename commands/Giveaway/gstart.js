@@ -2,7 +2,6 @@ const Command = require('../../Structures/Command');
 const discord = require('discord.js');
 const { MessageEmbed } = require('discord.js');
 const ms = require("ms");
-const client = new discord.Client();
 client.giveawaysManager = require('discord-giveaways');
 
 module.exports = class extends Command {
