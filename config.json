@@ -3,8 +3,6 @@
     "prefix": ".",
     "owners": ["580381333914648579"],
     "defaultPerms": ["SEND_MESSAGES"],
-    "nodes": [ { "host": "localhost", "port": 2333, "password": "youshallnotpass"}],
-    "hostby": "true;",
-    "spotifyURL": "https://open.spotify.com"
+    "hostby": "true"
   }
   
