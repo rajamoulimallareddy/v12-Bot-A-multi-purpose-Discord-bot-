@@ -32,3 +32,5 @@
  <h3> Start </h3>
  <li> Run </li>
  <pre> node index.js </pre> 
+
+ <img ="https://media.discordapp.net/attachments/866935276822331402/866936416025837588/T.png"> </img> 
